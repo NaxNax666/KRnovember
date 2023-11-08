@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/fulinfbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FULL INFO" />
+
+    <Button
+        android:id="@+id/modeFirstButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя, фамилия, возраст" />
+
+    <Button
+        android:id="@+id/modeSecondButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя, фамилия, вес." />
+
+    <ListView
+        android:id="@+id/resListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
